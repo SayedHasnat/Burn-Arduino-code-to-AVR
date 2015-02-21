@@ -66,9 +66,8 @@ Follow this image to find out the necessary pins
 
 Now you've connected all the things together click upload, if it uploads without fail then you're done!
 
-* If you want to test a led, follow the uploaded pinout diagram to find out which is the `13` pin on your MCU or other pins (you get the idea, don't you?) then connect it and test it
+* If you want to test a led, `follow the uploaded pinout diagram` to find out which is the `13` pin on your MCU or other pins (you get the idea, don't you?) then connect it and test it
 
 ## Important Links
 [Achu's blog](https://achuwilson.wordpress.com/2011/12/15/arduino-ide-for-programming-atmega-microcontrollers/)
-
 [Open-Hardware](http://openhardware.ro/using-atmega32-arduino-ide/)
