@@ -52,14 +52,14 @@ usbasp.protocol=usbasp
   * RESET
   * VCC
   * GND
-** Make sure you short the `AVCC and VCC` together and put `+5V` and short the other `GND and GND` together and connect `GROUND`
+**Make sure you short the `AVCC and VCC` together and put `+5V` and short the other `GND and GND` together and connect `GROUND`**
 
-** For ATmega32 **
+#### **For ATmega32**
 Follow this image to find out the necessary pins
 
 ![alt text](http://i.imgur.com/0FpGIig.png)
 
-** For Atmega8 **
+#### **For Atmega8**
 Follow this image to find out the necessary pins
 
 ![alt text](http://i.imgur.com/DmpWenQ.png)
@@ -70,4 +70,5 @@ Now you've connected all the things together click upload, if it uploads without
 
 ## Important Links
 [Achu's blog](https://achuwilson.wordpress.com/2011/12/15/arduino-ide-for-programming-atmega-microcontrollers/)
+
 [Open-Hardware](http://openhardware.ro/using-atmega32-arduino-ide/)
