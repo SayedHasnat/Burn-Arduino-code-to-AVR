@@ -70,6 +70,8 @@ Follow this image to find out the necessary pins
 
 ![alt text](http://i.imgur.com/DmpWenQ.png)
 
+![arduino-atmega32](http://openhardware.ro/wp-content/uploads/ATmega_16_32_Arduino_Pinout.jpg)
+
 Now you've connected all the things together click upload, if it uploads without fail then you're done!
 
 * If you want to test a led, `follow the uploaded pinout diagram` to find out which is the `13` pin on your MCU or other pins (you get the idea, don't you?) then connect it and test it
