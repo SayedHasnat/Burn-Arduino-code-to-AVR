@@ -76,7 +76,8 @@ Now you've connected all the things together click upload, if it uploads without
 * open `boards.txt`
 * Now find the desired mcu's 
 * For example: Arduino NG or older we can find these codes
-```##############################################################
+```
+##############################################################
 
 atmegang.name=Arduino NG or older
 
@@ -90,7 +91,8 @@ atmegang.bootloader.lock_bits=0x0F
 
 atmegang.build.mcu=atmegang
 atmegang.build.f_cpu=16000000L
-atmegang.build.board=AVR_NG```
+atmegang.build.board=AVR_NG
+```
 
 * edit the following line and make the f_cpu value 1Mhz like this: `atmegang.build.f_cpu=1000000L` save the file
 * Now you can see that the clock speed is fixed
