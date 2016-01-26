@@ -56,12 +56,12 @@ usbasp.protocol=usbasp
   * GND
 **Make sure you short the `AVCC and VCC` together and put `+5V` and short the other `GND and GND` together and connect `GROUND`**
 
-#### **For ATmega32**
+#### **For ATmega8**
 Follow this image to find out the necessary pins
 
 ![alt text](http://i.imgur.com/0FpGIig.png)
 
-#### **For Atmega8**
+#### **For Atmega32**
 Follow this image to find out the necessary pins
 
 ![alt text](http://i.imgur.com/DmpWenQ.png)
@@ -69,7 +69,35 @@ Follow this image to find out the necessary pins
 Now you've connected all the things together click upload, if it uploads without fail then you're done!
 
 * If you want to test a led, `follow the uploaded pinout diagram` to find out which is the `13` pin on your MCU or other pins (you get the idea, don't you?) then connect it and test it
+* 
+
+## Clock speed correction
+
+* open `boards.txt`
+* Now find the desired mcu's 
+* For example: Arduino NG or older we can find these codes
+```##############################################################
+
+atmegang.name=Arduino NG or older
+
+atmegang.upload.tool=avrdude
+atmegang.upload.protocol=arduino
+atmegang.upload.speed=19200
+
+atmegang.bootloader.tool=avrdude
+atmegang.bootloader.unlock_bits=0x3F
+atmegang.bootloader.lock_bits=0x0F
+
+atmegang.build.mcu=atmegang
+atmegang.build.f_cpu=16000000L
+atmegang.build.board=AVR_NG```
+
+* edit the following line and make the f_cpu value 1Mhz like this: `atmegang.build.f_cpu=1000000L` save the file
+* Now you can see that the clock speed is fixed
+
 
 ## Important Links
 [Achu's blog](https://achuwilson.wordpress.com/2011/12/15/arduino-ide-for-programming-atmega-microcontrollers/)
+
+
 [Open-Hardware](http://openhardware.ro/using-atmega32-arduino-ide/)
