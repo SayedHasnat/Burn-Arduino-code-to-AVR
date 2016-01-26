@@ -12,6 +12,10 @@ If you mess up the whole process and brick your chip I won't be responsible. No 
 * A `USBasp` (Works also with avr uploader as long as it uses USBasp driver it should work) with `A-B Usb Cable`
 ![usbasp](http://i.imgur.com/fgbhvYV.jpg)
 
+
+## USBASP Pinout
+![usbasp_pinout](http://i166.photobucket.com/albums/u117/rdshear/10-10-6.jpg)
+
 * Some premium jumper wires
 * A led to test (with small resistance, say 330 Ohm would be perfect)
 * Download the boards.txt files and header pin definition files
