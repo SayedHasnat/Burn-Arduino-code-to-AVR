@@ -8,7 +8,7 @@ If you mess up the whole process and brick your chip I won't be responsible. No 
 
 ## The things you should gather before you proceed:
 * An ATmega chip, `ATmega8/32/32A/8A` should work
-* An `Arduino IDE` (I've tested this on the version `1.0.5-r2`)
+* An `Arduino IDE` (I've tested this on the version `1.0.5-r2` and `1.6.7`)
 * A `USBasp` (Works also with avr uploader as long as it uses USBasp driver it should work) with `A-B Usb Cable`
 ![usbasp](http://i.imgur.com/fgbhvYV.jpg)
 
