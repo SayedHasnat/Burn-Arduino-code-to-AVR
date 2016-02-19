@@ -6,5 +6,5 @@
 
 ## Atmega32A
 
-![img2](http://i.imgur.com/raakrFz.png)
+![img2](http://i.imgur.com/jct9vcK.jpg)
 
