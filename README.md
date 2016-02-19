@@ -1,5 +1,5 @@
 # How to burn Arduino code to AVR Chips
-**This works for only `Atmega8A, Atmega32A,  Atmega32` for now.**
+**This works for only `Atmega8A, Atmega32A,  Atmega32, Atmega16A` for now.**
 
 Long story short, do the following things and I think you'll be done. 
 
@@ -58,6 +58,8 @@ usbasp.protocol=usbasp
   * RESET
   * VCC
   * GND
+
+
 **Make sure you short the `AVCC and VCC` together and put `+5V` and short the other `GND and GND` together and connect `GROUND`**
 
 #### **For ATmega8**
@@ -75,7 +77,6 @@ Follow this image to find out the necessary pins
 Now you've connected all the things together click upload, if it uploads without fail then you're done!
 
 * If you want to test a led, `follow the uploaded pinout diagram` to find out which is the `13` pin on your MCU or other pins (you get the idea, don't you?) then connect it and test it
-* 
 
 ## Clock speed correction
 
