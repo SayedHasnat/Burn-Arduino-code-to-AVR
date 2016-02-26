@@ -1,4 +1,4 @@
-# Arduino Atmega 
+# Arduino ATmega 
 
 ## Atmega 8A
 
