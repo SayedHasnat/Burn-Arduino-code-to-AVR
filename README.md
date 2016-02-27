@@ -110,3 +110,6 @@ atmegang.build.board=AVR_NG
 
 
 [Open-Hardware](http://openhardware.ro/using-atmega32-arduino-ide/)
+
+## Note
+* If the clock is not syncrhonized perfectly, try synchronizing using different clock speed e.g: 1MHz, 8MHz but not more than that
